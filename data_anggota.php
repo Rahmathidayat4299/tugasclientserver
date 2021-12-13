@@ -42,8 +42,8 @@
                 <td><?php echo $d['agama']; ?></td>
                 <td><?php echo $d['simpanan']; ?></td>
                 <td>
-                    <a href="edit.php?id_siswa=<?php echo $d['id_siswa']; ?>">EDIT</a>
-                    <a href="hapus.php?id_siswa=<?php echo $d['id_siswa']; ?>">HAPUS</a>
+                    <a href="edit.php?id=<?php echo $d['id']; ?>">EDIT</a>
+                    <a href="hapus.php?id=<?php echo $d['id']; ?>">HAPUS</a>
                 </td>
             </tr>
 
